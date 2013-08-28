@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E3EA814C17CDBF5D0006D595 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA814B17CDBF5D0006D595 /* UIKit.framework */; };
+		E3EA814E17CDBF5D0006D595 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA814D17CDBF5D0006D595 /* Foundation.framework */; };
+		E3EA815017CDBF5D0006D595 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA814F17CDBF5D0006D595 /* CoreGraphics.framework */; };
+		E3EA815617CDBF5D0006D595 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E3EA815417CDBF5D0006D595 /* InfoPlist.strings */; };
+		E3EA815817CDBF5D0006D595 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA815717CDBF5D0006D595 /* main.m */; };
+		E3EA815C17CDBF5D0006D595 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA815B17CDBF5D0006D595 /* AppDelegate.m */; };
+		E3EA815E17CDBF5D0006D595 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EA815D17CDBF5D0006D595 /* Default.png */; };
+		E3EA816017CDBF5D0006D595 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EA815F17CDBF5D0006D595 /* Default@2x.png */; };
+		E3EA816217CDBF5D0006D595 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E3EA816117CDBF5D0006D595 /* Default-568h@2x.png */; };
+		E3EA816517CDBF5D0006D595 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3EA816317CDBF5D0006D595 /* MainStoryboard_iPhone.storyboard */; };
+		E3EA816817CDBF5D0006D595 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3EA816617CDBF5D0006D595 /* MainStoryboard_iPad.storyboard */; };
+		E3EA816B17CDBF5D0006D595 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E3EA816A17CDBF5D0006D595 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E3EA814817CDBF5D0006D595 /* JTAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E3EA814B17CDBF5D0006D595 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E3EA814D17CDBF5D0006D595 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E3EA814F17CDBF5D0006D595 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E3EA815317CDBF5D0006D595 /* JTAP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JTAP-Info.plist"; sourceTree = "<group>"; };
+		E3EA815517CDBF5D0006D595 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E3EA815717CDBF5D0006D595 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E3EA815917CDBF5D0006D595 /* JTAP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JTAP-Prefix.pch"; sourceTree = "<group>"; };
+		E3EA815A17CDBF5D0006D595 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E3EA815B17CDBF5D0006D595 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E3EA815D17CDBF5D0006D595 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		E3EA815F17CDBF5D0006D595 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		E3EA816117CDBF5D0006D595 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		E3EA816417CDBF5D0006D595 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		E3EA816717CDBF5D0006D595 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		E3EA816917CDBF5D0006D595 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E3EA816A17CDBF5D0006D595 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E3EA814517CDBF5D0006D595 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3EA814C17CDBF5D0006D595 /* UIKit.framework in Frameworks */,
+				E3EA814E17CDBF5D0006D595 /* Foundation.framework in Frameworks */,
+				E3EA815017CDBF5D0006D595 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E3EA813F17CDBF5D0006D595 = {
+			isa = PBXGroup;
+			children = (
+				E3EA815117CDBF5D0006D595 /* JTAP */,
+				E3EA814A17CDBF5D0006D595 /* Frameworks */,
+				E3EA814917CDBF5D0006D595 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E3EA814917CDBF5D0006D595 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E3EA814817CDBF5D0006D595 /* JTAP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E3EA814A17CDBF5D0006D595 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3EA814B17CDBF5D0006D595 /* UIKit.framework */,
+				E3EA814D17CDBF5D0006D595 /* Foundation.framework */,
+				E3EA814F17CDBF5D0006D595 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E3EA815117CDBF5D0006D595 /* JTAP */ = {
+			isa = PBXGroup;
+			children = (
+				E3EA815A17CDBF5D0006D595 /* AppDelegate.h */,
+				E3EA815B17CDBF5D0006D595 /* AppDelegate.m */,
+				E3EA816317CDBF5D0006D595 /* MainStoryboard_iPhone.storyboard */,
+				E3EA816617CDBF5D0006D595 /* MainStoryboard_iPad.storyboard */,
+				E3EA816917CDBF5D0006D595 /* ViewController.h */,
+				E3EA816A17CDBF5D0006D595 /* ViewController.m */,
+				E3EA815217CDBF5D0006D595 /* Supporting Files */,
+			);
+			path = JTAP;
+			sourceTree = "<group>";
+		};
+		E3EA815217CDBF5D0006D595 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E3EA815317CDBF5D0006D595 /* JTAP-Info.plist */,
+				E3EA815417CDBF5D0006D595 /* InfoPlist.strings */,
+				E3EA815717CDBF5D0006D595 /* main.m */,
+				E3EA815917CDBF5D0006D595 /* JTAP-Prefix.pch */,
+				E3EA815D17CDBF5D0006D595 /* Default.png */,
+				E3EA815F17CDBF5D0006D595 /* Default@2x.png */,
+				E3EA816117CDBF5D0006D595 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E3EA814717CDBF5D0006D595 /* JTAP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E3EA816E17CDBF5D0006D595 /* Build configuration list for PBXNativeTarget "JTAP" */;
+			buildPhases = (
+				E3EA814417CDBF5D0006D595 /* Sources */,
+				E3EA814517CDBF5D0006D595 /* Frameworks */,
+				E3EA814617CDBF5D0006D595 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JTAP;
+			productName = JTAP;
+			productReference = E3EA814817CDBF5D0006D595 /* JTAP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E3EA814017CDBF5D0006D595 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Ahmed Mohamed Fareed";
+			};
+			buildConfigurationList = E3EA814317CDBF5D0006D595 /* Build configuration list for PBXProject "JTAP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E3EA813F17CDBF5D0006D595;
+			productRefGroup = E3EA814917CDBF5D0006D595 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E3EA814717CDBF5D0006D595 /* JTAP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E3EA814617CDBF5D0006D595 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3EA815617CDBF5D0006D595 /* InfoPlist.strings in Resources */,
+				E3EA815E17CDBF5D0006D595 /* Default.png in Resources */,
+				E3EA816017CDBF5D0006D595 /* Default@2x.png in Resources */,
+				E3EA816217CDBF5D0006D595 /* Default-568h@2x.png in Resources */,
+				E3EA816517CDBF5D0006D595 /* MainStoryboard_iPhone.storyboard in Resources */,
+				E3EA816817CDBF5D0006D595 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E3EA814417CDBF5D0006D595 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E3EA815817CDBF5D0006D595 /* main.m in Sources */,
+				E3EA815C17CDBF5D0006D595 /* AppDelegate.m in Sources */,
+				E3EA816B17CDBF5D0006D595 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		E3EA815417CDBF5D0006D595 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3EA815517CDBF5D0006D595 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E3EA816317CDBF5D0006D595 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3EA816417CDBF5D0006D595 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E3EA816617CDBF5D0006D595 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E3EA816717CDBF5D0006D595 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E3EA816C17CDBF5D0006D595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E3EA816D17CDBF5D0006D595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E3EA816F17CDBF5D0006D595 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JTAP/JTAP-Prefix.pch";
+				INFOPLIST_FILE = "JTAP/JTAP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E3EA817017CDBF5D0006D595 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JTAP/JTAP-Prefix.pch";
+				INFOPLIST_FILE = "JTAP/JTAP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E3EA814317CDBF5D0006D595 /* Build configuration list for PBXProject "JTAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3EA816C17CDBF5D0006D595 /* Debug */,
+				E3EA816D17CDBF5D0006D595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E3EA816E17CDBF5D0006D595 /* Build configuration list for PBXNativeTarget "JTAP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3EA816F17CDBF5D0006D595 /* Debug */,
+				E3EA817017CDBF5D0006D595 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E3EA814017CDBF5D0006D595 /* Project object */;
+}
