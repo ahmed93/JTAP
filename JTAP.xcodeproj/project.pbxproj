@@ -13,7 +13,7 @@
 		0C9AE87117D0578B001150A6 /* NavBarBackgroundGradientView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0C9AE86F17D0578B001150A6 /* NavBarBackgroundGradientView.m */; };
 		0CA1CF9317DAF96A00120E08 /* Icon-user.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA1CF9217DAF96A00120E08 /* Icon-user.png */; };
 		0CA1CF9517DAF9F400120E08 /* lock.png in Resources */ = {isa = PBXBuildFile; fileRef = 0CA1CF9417DAF9F400120E08 /* lock.png */; };
-		8DEB0B611899110E00DF4204 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8DEB0B601899110E00DF4204 /* Reachability.m */; };
+		8D0D249819089F2B00C9DB62 /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0D249719089F2B00C9DB62 /* Reachability.m */; };
 		E399CE4517CDE39E00CD914E /* Button1.png in Resources */ = {isa = PBXBuildFile; fileRef = E399CE4417CDE39E00CD914E /* Button1.png */; };
 		E3EA814C17CDBF5D0006D595 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA814B17CDBF5D0006D595 /* UIKit.framework */; };
 		E3EA814E17CDBF5D0006D595 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3EA814D17CDBF5D0006D595 /* Foundation.framework */; };
@@ -64,8 +64,8 @@
 		0C9AE86F17D0578B001150A6 /* NavBarBackgroundGradientView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavBarBackgroundGradientView.m; sourceTree = "<group>"; };
 		0CA1CF9217DAF96A00120E08 /* Icon-user.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-user.png"; sourceTree = "<group>"; };
 		0CA1CF9417DAF9F400120E08 /* lock.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lock.png; sourceTree = "<group>"; };
-		8DEB0B5F1899110E00DF4204 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
-		8DEB0B601899110E00DF4204 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		8D0D249619089F2B00C9DB62 /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		8D0D249719089F2B00C9DB62 /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
 		E399CE4417CDE39E00CD914E /* Button1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Button1.png; sourceTree = "<group>"; };
 		E3EA814817CDBF5D0006D595 /* JTAP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JTAP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3EA814B17CDBF5D0006D595 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -326,8 +326,8 @@
 		E3EA81B417CDC1640006D595 /* Reachability */ = {
 			isa = PBXGroup;
 			children = (
-				8DEB0B5F1899110E00DF4204 /* Reachability.h */,
-				8DEB0B601899110E00DF4204 /* Reachability.m */,
+				8D0D249619089F2B00C9DB62 /* Reachability.h */,
+				8D0D249719089F2B00C9DB62 /* Reachability.m */,
 			);
 			name = Reachability;
 			sourceTree = "<group>";
@@ -414,7 +414,7 @@
 				E3EA815C17CDBF5D0006D595 /* AppDelegate.m in Sources */,
 				E3EA817717CDC0600006D595 /* Student.m in Sources */,
 				E3EA817B17CDC0920006D595 /* Groups.m in Sources */,
-				8DEB0B611899110E00DF4204 /* Reachability.m in Sources */,
+				8D0D249819089F2B00C9DB62 /* Reachability.m in Sources */,
 				E3EA817F17CDC0D10006D595 /* Authenticated_User.m in Sources */,
 				E3EA81A817CDC1500006D595 /* NSObject+SBJson.m in Sources */,
 				E3EA81A917CDC1500006D595 /* SBJsonParser.m in Sources */,

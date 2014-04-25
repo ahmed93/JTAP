@@ -110,7 +110,7 @@
 {
     //[UIApplication sharedApplication].networkActivityIndicatorVisible = YES;
     dispatch_async( dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
-        hostReach = [[Reachability reachabilityWithHostName:@"www.google.com"] retain];
+//        hostReach = [[Reachability reachabilityWithHostName:@"www.google.com"] retain];
         dispatch_async( dispatch_get_main_queue(), ^{
             [self checkNetworkStatus: hostReach];
         });

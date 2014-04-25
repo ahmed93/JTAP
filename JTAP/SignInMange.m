@@ -168,8 +168,9 @@
     
     dispatch_async( dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         
-        hostReach = [[Reachability reachabilityWithHostName:@"www.google.com"] retain];
+        hostReach = [Reachability reachabilityWithHostName:@"www.google.com"];
         dispatch_async( dispatch_get_main_queue(), ^{
+            [hostReach startNotifier];
             [self startShadowedView];
             [self checkNetworkStatus: hostReach];
         });
@@ -256,7 +257,8 @@
     
     username = userTextF.text;
     password = passTextF.text;
-    if(!([username isEqual:@""] && [password isEqual:@""])){
+    if(![username isEqual:@""] && ![password isEqual:@""]){
+        NSLog(@"username and password are empty");
         [self GetDataAtEntry];
     }else if ([username isEqual:@""] && ![password isEqual:@""]) {
         UIAlertView *noConnention = [[[UIAlertView alloc]initWithTitle:nil message:@"Enter username" delegate:self cancelButtonTitle:@"Dissmiss" otherButtonTitles:nil, nil]autorelease];

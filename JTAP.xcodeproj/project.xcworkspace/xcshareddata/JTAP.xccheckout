@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6366107F-5D31-418B-ACB5-F37EB347FCED</string>
+	<key>IDESourceControlProjectName</key>
+	<string>JTAP</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>3EF1E8AE-A714-4A79-8411-818CF810BC89</key>
+		<string>https://github.com/ahmed93/JTAP.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>JTAP.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>3EF1E8AE-A714-4A79-8411-818CF810BC89</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/ahmed93/JTAP.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>3EF1E8AE-A714-4A79-8411-818CF810BC89</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>3EF1E8AE-A714-4A79-8411-818CF810BC89</string>
+			<key>IDESourceControlWCCName</key>
+			<string>JTAP</string>
+		</dict>
+	</array>
+</dict>
+</plist>
